@@ -1,0 +1,15 @@
+I have I have a sheet called Inputs that has a simple macro already setup to pull in info from other sheet in the workbook. 
+Once that macro button is hit and pulls in the data from the other sheets I need the following to happen.
+
+I have a drop down list in C39 (1-10). Based on the number selected I need C40 - C49 to auto fill with “Company A”. 
+So for example if 3 is selected in the drop box then cells C40, C41 and C42 will automatically fill with “Company A” and whatever cell in the range of C40 - C49 that are not filled need to be hidden. 
+Ideally if possible I would like to have the cells prefill with the default of “Company A” but for there to possibly be a drop down in cells C40 - C49 where the user could change the company (company A-Z).
+
+In cell C66 of the Inputs sheet I need a yes/no drop down. If no is selected in the drop down. I need for the sheet called Current to be hidden.
+In cell C67 of the Inputs sheet I need a yes/no drop down. If no is selected I need for the sheet called Proposed to be hidden.
+
+At the bottom of the Inputs sheet I need a drop that allows the user to select the sheets in the workbook they want to export. 
+Sheets are Current, Proposed, Percent Change, All. 
+There are other sheets in workbook so All needs to only export Current/Proposed/Precent Change. 
+I need a button that will ask Does everything look correct? 
+If so, press this button to export. This button would need to export sheets selected from the drop down.
